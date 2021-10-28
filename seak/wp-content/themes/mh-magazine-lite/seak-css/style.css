@@ -1,0 +1,1017 @@
+/*  ******** Modificações feitas no tema ******** */
+
+/* espaço acima da imagem de cabeçalho */
+.mh-container-outer {
+  margin-top: 0px !important;
+  
+}
+
+/* imagem de cabecalho */
+.mh-header-image {
+  margin-bottom: 10px;
+}
+
+
+/* remove sublinhado de links focados */
+a:focus {
+  text-decoration: none !important;
+}
+
+/* verificar */
+/*
+.mh-header-tagline {
+  color: #4685e6 !important;
+}
+
+/* verificar */
+/*
+.mh-meta a:hover {
+  color: #4685e6 !important
+}
+*/
+
+/* ****************************************** Menu principal (horizontal) ****************************************** */
+
+/* Menu principal - item selecionado*/
+.current-menu-item {
+  background: #4685e6 !important;
+  /*height: 44px;*/
+}
+
+/* Menu principal - barra horizontal*/
+.mh-main-nav {
+  border-bottom: 5px solid #4685e6 !important;
+  height: 41px;
+}
+
+/* Menu principal - itens - eventos */
+.mh-main-nav li:hover {
+  background: #4685e6 !important;
+}
+
+/* Menu principal - itens - eventos */
+.mh-main-nav li:hover a {
+  background: #4685e6 !important
+}
+
+/* Menu principal - eventos mouse */
+.menu-item a:hover, .menu-item a:focus {
+  text-decoration: none !important;
+  color: #111 !important; 
+  transition: all 0.25s ease-out;
+}
+
+/* Menu principal - Linha colorida - modo responsivo */
+.mh-main-nav-wrap .slicknav_nav ul {
+  border: none; /*border-top: 1px solid #4685e6 !important;*/
+  
+}
+
+
+/* ***************************************************************************************************************** */
+
+/* ****************************************** Botoes redes sociais (topo) ****************************************** */
+.botoes-redes-sociais-topo {
+	width: 100%;
+	height: 35px;
+	margin-top: -10px;
+	text-align: right;
+}
+
+
+.botoes-redes-sociais-topo img {
+	width: 25px;
+	margin-right: 15px;
+}
+
+
+
+
+/* ****************************************** Barra lateral esquerda *********************************************** */
+
+.navegacao-lateral-esq {
+  height: 100%
+  background-color: #fff;
+  float:left; 
+  width: 28%; 
+  margin-left: 0%;  
+}
+
+/* ****************************************** Menu lateral - home ************************************************** */
+
+/* remove margem de listas usadas no menu */
+.entry-content ul, .entry-content ol {
+  /*margin: 0px !important;*/
+}
+
+/* container do menu principal lateral */
+.menu-lateral-home {
+  background-color: #fff;
+  float:left; 
+  width: 100%; 
+  margin-left: 0%; 
+
+}
+
+
+/* links do menu principal lateral */
+.menu-lateral-home a {
+	display: block;
+	text-align: left;
+	transition: all 0.25s ease-out;
+	color: #2a2a2a !important;
+	font-size: 22px; /*tamanho texto*/
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: bold;
+}
+
+/* evento mouse em links */
+.menu-lateral-home a:hover {
+  text-decoration: none;
+  color: white !important;
+}
+
+/* item menu */
+.menu-lateral-home li {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0px 5px 10px;
+  width: 100%;
+}
+
+/* evento mouse item menu*/
+.menu-lateral-home li:hover {
+  background-color: #4685e6;
+}
+
+/* ícones do menu lateral */
+.menu-lateral-home i {
+  margin-right: 10px;
+  width: 30px;
+  text-align: center;
+}
+
+/************** nova proposta **************/
+
+.menu-lateral-home-item {
+	max-width: 100%;
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	border-radius: 15px;
+	height: 30px;
+	margin-bottom: 4px;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.menu-lateral-home-item:hover {
+	/*background-color: #4685e6;*/
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.14), 0 8px 8px -2px rgba(0, 0, 0, 0.2), 0 6px 9px 0 rgba(0, 0, 0, 0.12); 
+}
+
+.menu-lateral-home-item a {
+	margin-left: 20px;
+	display: block;
+	text-align: left;
+	transition: all 0.25s ease-out;
+	color: black;
+	font-size: 20px; /*tamanho texto*/
+	white-space: nowrap;
+	overflow: hidden;
+	font-weight: bold;  
+}
+
+.menu-lateral-home-item a:hover {
+  text-decoration: none;
+  transition: all 0.25s ease-out;
+  color: #4685e6 !important;
+}
+
+/* ***************************************************************************************************************** */
+
+
+/* ****************************************** Slider principal - home ********************************************** */
+
+.container-slider-home {
+  float: right; 
+  width: 69%; 
+  margin-bottom: 0px;
+}
+
+
+
+/* ***************************************************************************************************************** */
+
+
+/* ****************************************** Menu base - home ***************************************************** */
+
+
+.menu-base-home {
+	font-weight: bold;
+	float: right;
+	width: 68%;
+    padding-left: 2%;
+    margin-top: 25px;
+}
+
+.menu-base-home-item {
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	max-height: 130px;
+	width: 23%;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	border-radius: 15px;
+	height: 100px;
+	margin-left: 1%;
+	margin-bottom: 4px;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+}
+
+.menu-base-home-item i {
+	font-size: 25px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+
+.menu-base-home-item:hover {
+	transition: all 0.25s ease-out;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.14), 0 8px 8px -2px rgba(0, 0, 0, 0.2), 0 6px 9px 0 rgba(0, 0, 0, 0.12); 
+}
+
+.menu-base-home-item a {
+	display: block;
+	text-align: center;
+	transition: all 0.25s ease-out;
+	color: #111;
+	font-size: 17px; /*tamanho texto*/
+	white-space: nowrap; /*break-word;*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #2a2a2a !important;
+}
+
+.menu-base-home-item a:hover {
+	transition: all 0.25s ease-out;
+	/*color: #fff !important;*/
+	color: #48f !important;
+}
+
+/* ***************************************************************************************************************** */
+
+.rodape-principal {
+  background-color: #2a2a2a;
+  /*height: 90px;*/
+  padding: 30px;
+  color: #fff !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+
+.titulo-rodape {
+	margin-bottom: 15px !important;
+	color: #fff !important;
+	white-space: nowrap;	
+}
+
+.item-rodape {
+  display: block;  
+  width: 50%;
+  height: 90px;
+  margin-bottom: 40px;
+  float: left;
+  text-align: center;
+  /*border-right: 1px solid #191919;*/
+}
+
+.item-rodape i {
+	font-size: 40px;
+	margin-right: 5px;
+}
+
+.item-rodape a {
+	color: white;
+}
+
+.rodape-base {
+  display: block;
+  width: 100%;
+  /*border-top: 1px solid #191919; */
+  text-align: center;
+  background-color: #2a2a2a;
+  color: white;	
+  height: 30px;
+}
+
+
+
+/* ************************************ Slider de horarios - Pagina inicial *************************************** */
+
+
+.home-horarios-desktop {
+	float: left; 
+	display: block;
+	width: 100%; 
+	margin-top: 35px;
+	margin-bottom: 0px;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	border-radius: 15px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+}
+
+
+.home-horarios-desktop:hover {
+	transition: all 0.25s ease-out;
+	/*background-color: #4685e6;*/
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.14), 0 8px 8px -2px rgba(0, 0, 0, 0.2), 0 6px 9px 0 rgba(0, 0, 0, 0.12);
+}
+
+
+
+.home-horarios-desktop h4{
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	text-align: center;
+	color: #2a2a2a !important;
+}
+
+
+.mySlides-horarios h5 {
+	margin-bottom: 15px;
+	text-align: center;
+		color: #2a2a2a !important;
+}
+
+.mySlides-horarios p {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.mySlides-horarios p span {
+	color: #4685e6;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+/* Slideshow container */
+.slideshow-container-horarios {
+  position: relative;
+  background: #f1f1f1f1;
+  border-radius: 0 0 15px 15px;
+}
+
+/* Slides */
+.mySlides-horarios {
+  display: none;
+  padding: 40px;
+  padding-top: 0px;
+  text-align: left;
+}
+
+/* Next & previous buttons */
+.prev-horarios, .next-horarios {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 10px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next-horarios {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-horarios:hover, .next-horarios:hover {
+  background-color: rgba(0,0,0,0.8);
+  background-color: #4685e6;
+  color: white;
+  transition: background-color 0.6s ease;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container-horarios {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background: #ddd;*/
+    height: 20px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* The dots/bullets/indicators */
+.dot-horarios {
+  cursor: pointer;
+  float: left;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #bbb;  
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active-horarios, .dot-horarios:hover {
+  background-color: #4685e6;
+  color: white;
+}
+
+
+
+
+/* ************************************ textos - titulos  *************************************** */
+
+.conteinerConteudo {
+	margin-bottom: 50px;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	border-radius: 15px;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);	
+	/*padding-right: 30px;*/
+	text-align: justify;
+}
+
+.conteinerConteudo:hover {
+	transition: all 0.25s ease-out;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.14), 0 8px 8px -2px rgba(0, 0, 0, 0.2), 0 6px 9px 0 rgba(0, 0, 0, 0.12); 
+}
+
+.conteinerConteudo h2 {
+	margin-left: 30px;
+	color: #2a2a2a !important;
+	text-transform: uppercase !important;
+	font-size: 23px !important;
+	text-align: left;
+}
+
+.conteinerConteudo h2 i {
+	margin-right: 10px;
+	text-align: left;
+}
+
+.conteinerConteudo h4 {
+	color: #2a2a2a !important;
+	text-transform: uppercase !important;
+	text-align: left;
+}
+
+.conteinerConteudo p {
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 17px;
+	color: #2E2D29;
+}
+
+.conteinerConteudo a {
+	color: #4685e6;
+}
+
+.conteinerConteudo ul {
+	margin-bottom: 20px !important;
+
+}
+
+.conteinerConteudo ol {
+	margin-bottom: 20px !important;
+}
+
+.conteinerConteudo ul li {
+	margin-left: 30px;
+	font-size: 17px;
+	color: #2E2D29;
+	margin-right: 30px !important;
+}
+
+
+.conteinerConteudo ol li {
+	margin-left: 30px !important;
+	font-size: 17px !important;
+	color: #2E2D29 !important;
+	margin-right: 30px !important;
+} 
+
+.conteinerSubConteudo {
+	margin-left: 30px; 
+	padding: 0 30px 0 0;
+}
+
+.conteinerSubConteudo p {
+	margin-left: 0px;
+	text-align: justify;
+}
+
+
+
+/* *********************** pagina a seak *********************** */
+
+.bloco-historia p img {
+	margin-right: 30px;
+	float: left;
+	display: inline;
+}
+
+.paragrafoImagem {
+	min-height: 140px;
+}
+
+
+
+/* *********************** pagina nosso codificador *********************** */
+.bloco-obras p img {
+	margin-right: 30px;
+	float: left;
+	display: inline;
+	width: 120px !important;
+	margin-bottom: 20px;
+	white-space: nowrap; 
+}
+
+.bloco-obras .textImgObras {
+	min-height: 180px;
+}
+
+.bloco-obras h4 {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.imagensPatrono img {
+	max-height: 150px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+
+
+}
+
+.imagensPatrono {
+	text-align: center;
+	float: none;
+
+}
+
+
+
+
+
+
+/* ************************************ horarios para página atividades ***************************************** */
+
+.conteinerConteudo #opcaoPagHorarios {
+	margin-left: 20px;
+}	
+
+.botaoEscolherHorarios {
+/*  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block !important;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #4685e8;
+  float: left;
+  margin-bottom: 30px;
+  margin-right: 30px;*/
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+/*********************** horarios por dia da semana */
+.horarios-opcao1 {
+	display: none;
+}
+
+/* Style the tab */
+.tabelaHorariosDia {
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tabelaHorariosDia button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tabelaHorariosDia button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tabelaHorariosDia button.active {
+  background-color: #ccc;
+  color: #4685e6;
+}
+
+/* Style the tab content */
+.horariosPorDia {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.horariosPorDia h3 {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.horariosPorDia h5 {
+	margin-left: 30px;
+	color: #4685e6;
+	text-weight: bold;
+}
+
+.horariosPorDia p {
+	margin-left: 30px;
+}
+
+
+/*********************** horarios por atividade */
+.horarios-opcao2 {
+	border-top: 1px solid #ccc;
+	width: 100%;
+	margin-bottom: 30px;
+	float: right;
+	text-align: left;
+}
+
+.tabHorarios {
+  float: left;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: auto;
+}
+
+/* Style the buttons inside the tab */
+.tabHorarios button {
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tabHorarios button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tabHorarios button.active {
+  background-color: #ccc;
+  color: #4685e6;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: right;
+  padding: 0px 12px;
+  width: 65%;
+  border-left: none;
+  height: auto;
+  margin-top: 21px;
+}
+
+.tabcontent p {
+	margin-left: 0px;
+}
+
+.tabcontent span {
+	color: #4685e6;
+	font-weight: bold;
+}
+
+.tabcontent h5 {
+	margin-left: 0px;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+
+
+
+/* ************************************ Página de contatos ************************************************ */
+
+.bloco-contatos ul {
+	list-style: none;
+	margin-left: 0px;
+}
+
+.bloco-contatos ul li {
+	margin-bottom: 10px;
+}
+
+.bloco-contatos i {
+	margin-right: 10px;
+}
+
+#contato-mapa {
+	width: 100%;
+	height: 400px;
+}
+
+
+
+/* ************************************ Linha do tempo ************************************************ */
+
+.timeline {
+  background-color: white;
+  position: relative;
+  margin: 0px;
+  width: 100%;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #4685e6;
+  top: 0;
+  bottom: 0;
+  margin-left: -3px;
+
+}
+
+.container-timeline {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+}
+
+.container-timeline::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #4685e6;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-right{
+  left: 50%;
+}
+
+
+.timeline-right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  border: medium solid black;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent black transparent transparent;
+}
+
+
+.content-timeline {
+	padding: 20px 30px;
+	background-color: white;
+	position: relative;
+	border-radius: 6px;
+  	border: 1px solid rgba(0, 0, 0, 0.14);
+	border-radius: 15px;
+	-webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.14), 1px 3px 1px -2px rgba(0, 0, 0, 0.2), 1px 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.content-timeline:hover {
+	box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.14), 5px 8px 8px -2px rgba(0, 0, 0, 0.2), 5px 6px 9px 0 rgba(0, 0, 0, 0.12); 
+}
+
+.timeline::after {
+	left: 31px;
+}
+
+.container-timeline {
+	max-width: 100%;
+	padding-left: 70px;
+	padding-right: 25px;
+}
+
+.container-timeline::before {
+	left: 60px;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent rgba(0, 0, 0, 0.5) transparent transparent;
+}
+
+.timeline-right::after {
+	left: 15px;
+}
+
+.timeline-right {
+	left: 0%;
+}
+
+
+
+
+
+
+/* ***************************************************************************************************************** */
+/* Menus responsivos da home */
+
+@media screen and (max-width: 900px) {
+
+.mh-header-image {
+  margin-bottom: 0px;
+}
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+
+	/* ***** imagens redes sociais topo **** */
+	.botoes-redes-sociais-topo {
+		text-align: center;		
+	}
+	
+	.navegacao-lateral-esq {
+		width: 100%; 
+	}
+
+
+	/* ****** menu lateral ****** */
+
+	.menu-lateral-home {
+	  width: 100%;
+	  margin-top: 20px;
+	}
+	
+
+	.menu-lateral-home-item {
+		margin: 0px;
+		padding: 0px 0px 10px 0px;
+		width: 47%;	
+		margin-left: 2%;
+	  	margin-bottom: 4px;
+		display: block;
+		float: left;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		max-height: 130px;
+	  	border: 1px solid rgba(0, 0, 0, 0.14);
+	  	border-radius: 15px;
+	  	height: 100px;
+	  	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	}
+	
+	.menu-lateral-home-item:hover {
+		background-color: white;
+  		box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.14), 0 8px 8px -2px rgba(0, 0, 0, 0.2), 0 6px 9px 0 rgba(0, 0, 0, 0.12); 	
+	}
+	
+	.menu-lateral-home-item i {
+		display: block;
+		width: 100%;
+		text-align: center;
+		font-size: 25px;
+  		margin-bottom: 20px;
+	} 
+	
+	.menu-lateral-home-item a {
+		display: block;
+		width: 100%;
+		text-align: center;
+		display: block;
+		text-align: center;
+		transition: all 0.25s ease-out;
+		color: #111;
+		font-size: 17px; /*tamanho texto*/
+		white-space: nowrap; /*break-word;*/
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin-left: 0px;
+	
+	}
+	
+	.menu-lateral-home-item a:hover {
+		transition: all 0.25s ease-out;
+		
+		/* ultimas modificacoes: */
+		color: #48f !important;	
+
+	}
+	
+	
+	/* **** home horarios **** */
+	.home-horarios-desktop {
+
+	}
+	
+	.home-horarios-mobile {
+		display: block;
+	}
+	
+
+	/* ****** slider ****** */
+	.container-slider-home {
+		width: 100%;
+	}
+
+	/* ****** menu base ****** */
+	.menu-base-home {
+	  width: 100%;
+
+	}
+
+	.menu-base-home-item {
+				width: 47%;	
+		margin-left: 2%;
+	  	margin-bottom: 4px;
+	}
+	
+	
+	/**** rodape ****/
+	.item-rodape {
+		width: 100%;
+	}
+	
+	
+	/*** tabela tipo 1 *****/
+	.tabela-horarios-tipo1 {
+		height: 1200px;
+	}
+	.tabela-horarios-tipo1-coluna1 {
+		width: 100%;
+		margin-left: 0px;
+		float: none;
+
+	}
+
+	.tabela-horarios-tipo1-coluna2 {
+		width: 100%;
+		float: none;
+	}
+	
+	/* página de horarios - horarios tipo 2 */
+	.tabcontent {
+		width: 50%;
+	}
+
+	.tabHorarios {
+		width: 42%;
+	}	
+
+}
+
+@media screen and (max-width: 620px) {
+
+}
+
+@media only screen and (max-width: 420px){
+
+}
+
+@media only screen and (max-width: 360px) {
+
+}
+
+
+
+
+
+ 
